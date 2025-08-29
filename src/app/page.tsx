@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,6 +13,32 @@ export default function Home() {
           height={38}
           priority
         />
+        
+        <div className="text-center sm:text-left">
+          <h1 className="text-2xl font-bold mb-4">TaskFlow Demo</h1>
+          <p className="text-lg mb-6">GitHub Copilot Specification-driven Development</p>
+          
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link 
+              href="/todo" 
+              className="bg-slate-500 hover:bg-slate-600 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
+            >
+              📝 Basic Todo (Before) →
+            </Link>
+            
+            <Link 
+              href="/todo-advanced" 
+              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
+            >
+              ✨ Advanced TaskFlow (After) →
+            </Link>
+          </div>
+          
+          <p className="text-sm text-slate-600 mt-4 max-w-md">
+            Compare the difference between generic README vs detailed specification-driven development
+          </p>
+        </div>
+        
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}

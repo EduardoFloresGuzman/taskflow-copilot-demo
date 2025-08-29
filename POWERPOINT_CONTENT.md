@@ -1,31 +1,31 @@
 # PowerPoint Presentation Content
-## Documentos de Especificación como Contexto
+## Specification Documents as Context
 
-### Slide 1: Título
+### Slide 1: Title
 **Specification-driven Development**
-*Transformando GitHub Copilot con documentación detallada*
+*Transforming GitHub Copilot with detailed documentation*
 
 ---
 
-### Slide 2: El Problema
-**Antes: Sugerencias Genéricas**
-- Copilot genera código "genérico"
-- No entiende el contexto del proyecto
-- Inconsistencias entre desarrolladores
-- Mucho tiempo corrigiendo y ajustando
+### Slide 2: The Problem
+**Before: Generic Suggestions**
+- Copilot generates "generic" code
+- Doesn't understand project context
+- Inconsistencies between developers
+- Too much time correcting and adjusting
 
 ---
 
-### Slide 3: La Solución
-**Después: Contexto Inteligente**
-- README detallado como especificación
-- Custom Instructions personalizadas
-- Workspace Context automático
-- Repository Indexing completo
+### Slide 3: The Solution
+**After: Intelligent Context**
+- Detailed README as specification
+- Personalized Custom Instructions
+- Automatic Workspace Context
+- Complete Repository Indexing
 
 ---
 
-### Slide 4: Componentes Clave
+### Slide 4: Key Components
 
 #### 🎯 **Custom Instructions**
 ```
@@ -34,121 +34,121 @@
 ```
 
 #### 📚 **Workspace Context**
-- READMEs automáticamente indexados
-- Documentación técnica procesada
-- Código existente como referencia
+- READMEs automatically indexed
+- Technical documentation processed
+- Existing code as reference
 
 #### 🔍 **Repository Indexing**
-- Estructura completa del proyecto
-- Patrones de código identificados
-- Convenciones extraídas automáticamente
+- Complete project structure
+- Code patterns identified
+- Conventions extracted automatically
 
 ---
 
 ### Slide 5: Demo - TaskFlow Project
 
-**[INSERTAR GIF: Comparación Before/After]**
+**[INSERT GIF: Before/After Comparison]**
 
-**Antes (README genérico):**
-- Componente básico sin estructura
-- Naming inconsistente
-- Sin design system
+**Before (generic README):**
+- Basic component without structure
+- Inconsistent naming
+- No design system
 
-**Después (README detallado):**
-- Componente siguiendo especificación exacta
-- TypeScript interfaces automáticas
-- Design system aplicado correctamente
+**After (detailed README):**
+- Component following exact specification
+- Automatic TypeScript interfaces
+- Design system applied correctly
 
 ---
 
-### Slide 6: Resultados Medibles
+### Slide 6: Measurable Results
 
-| Métrica | Antes | Después | Mejora |
+| Metric | Before | After | Improvement |
 |---------|-------|---------|--------|
-| Tiempo de desarrollo | 100% | 60% | **40% más rápido** |
-| Consistencia de código | 70% | 95% | **25% mejora** |
-| Context switching | Alto | Mínimo | **80% reducción** |
-| Onboarding nuevos devs | 2 semanas | 3 días | **78% reducción** |
+| Development time | 100% | 60% | **40% faster** |
+| Code consistency | 70% | 95% | **25% improvement** |
+| Context switching | High | Minimal | **80% reduction** |
+| New dev onboarding | 2 weeks | 3 days | **78% reduction** |
 
 ---
 
 ### Slide 7: Best Practices
 
-#### ✅ **README Efectivo**
-- Arquitectura clara y explícita
-- Convenciones de naming documentadas
-- Design system especificado
-- Patrones de código preferidos
+#### ✅ **Effective README**
+- Clear and explicit architecture
+- Documented naming conventions
+- Specified design system
+- Preferred code patterns
 
 #### ✅ **Custom Instructions**
-- Específicas del equipo/proyecto
-- Frameworks y librerías preferidas
-- Anti-patterns a evitar
-- Standards de documentación
+- Team/project specific
+- Preferred frameworks and libraries
+- Anti-patterns to avoid
+- Documentation standards
 
 ---
 
-### Slide 8: Implementación Práctica
+### Slide 8: Practical Implementation
 
-**3 Pasos para implementar:**
+**3 Steps to implement:**
 
-1. **Documenta tu arquitectura**
-   - Define convenciones
-   - Especifica design system
-   - Documenta patrones
+1. **Document your architecture**
+   - Define conventions
+   - Specify design system
+   - Document patterns
 
-2. **Configura Custom Instructions**
-   - Crea `.copilot-instructions.md`
-   - Habilita en VS Code settings
-   - Comparte con el equipo
+2. **Configure Custom Instructions**
+   - Create `.copilot-instructions.md`
+   - Enable in VS Code settings
+   - Share with the team
 
-3. **Mantén la documentación viva**
-   - Actualiza con cambios
-   - Úsala como "single source of truth"
-   - Valida que Copilot la sigue
-
----
-
-### Slide 9: Impacto en el Equipo
-
-#### 🚀 **Para Desarrolladores**
-- Menos tiempo escribiendo boilerplate
-- Más tiempo en lógica de negocio
-- Código más consistente automáticamente
-
-#### 👥 **Para el Equipo**
-- Alineación automática de criterios
-- Onboarding más rápido
-- Knowledge sharing mejorado
-
-#### 📈 **Para la Organización**
-- Mayor productividad
-- Menor deuda técnica
-- Standards enforcement automático
+3. **Keep documentation alive**
+   - Update with changes
+   - Use as "single source of truth"
+   - Validate that Copilot follows it
 
 ---
 
-### Slide 10: Próximos Pasos
+### Slide 9: Team Impact
 
-**Esta base nos prepara para:**
-- **MCPs**: Conexión con docs externos
-- **Team Integration**: Shared context en organización
-- **CLI & Smart Actions**: Automatización avanzada
+#### 🚀 **For Developers**
+- Less time writing boilerplate
+- More time on business logic
+- Automatically consistent code
 
-**El futuro: Copilot como hub de conocimiento compartido**
+#### 👥 **For the Team**
+- Automatic criteria alignment
+- Faster onboarding
+- Improved knowledge sharing
+
+#### 📈 **For the Organization**
+- Higher productivity
+- Less technical debt
+- Automatic standards enforcement
 
 ---
 
-### Notas para el Presentador:
+### Slide 10: Next Steps
 
-1. **Timing**: 10 minutos total
-2. **Demo key moment**: Mostrar el GIF del before/after
-3. **Enfoque**: Beneficios prácticos y medibles
-4. **Transición**: Conectar con MCPs para siguiente sección
-5. **Interacción**: Preguntar experiencias del público
+**This foundation prepares us for:**
+- **MCPs**: Connection with external docs
+- **Team Integration**: Shared context in organization
+- **CLI & Smart Actions**: Advanced automation
 
-### Archivos de Soporte:
-- `README.md` - Especificación completa del proyecto
-- `DEMO_SCRIPT.md` - Guión para grabación
-- `src/types/index.ts` - Ejemplo de tipos bien definidos
-- `.copilot-instructions.md` - Custom instructions ejemplo
+**The future: Copilot as a shared knowledge hub**
+
+---
+
+### Presenter Notes:
+
+1. **Timing**: 10 minutes total
+2. **Demo key moment**: Show the before/after GIF
+3. **Focus**: Practical and measurable benefits
+4. **Transition**: Connect with MCPs for next section
+5. **Interaction**: Ask about audience experiences
+
+### Supporting Files:
+- `README.md` - Complete project specification
+- `DEMO_SCRIPT.md` - Recording script
+- `src/types/index.ts` - Example of well-defined types
+- `.copilot-instructions.md` - Custom instructions example

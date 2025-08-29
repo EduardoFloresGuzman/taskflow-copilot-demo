@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# presentation and demo files
+presentation-backup.pdf
+presentation-preview.html
+PRESENTATION_MARP.md
+PRESENTATION_CONTENT.md
+POWERPOINT_CONTENT.md
+GITHUB_SETUP_COMMANDS.md
+DEMO_SETUP_SCRIPT.md
+DEMO_SCRIPT.md
+copilot-specification-driven-development.pptx
+PRESENTATION_CONTENT.md
