@@ -203,6 +203,52 @@ npm run build
 npm start
 ```
 
+### MCP (Model Context Protocol) Demo Commands
+
+This project includes demonstration commands showcasing the difference between AI-generated code with and without database schema context:
+
+```bash
+# Show all available demo commands
+npm run demo:help
+
+# Show query generated WITHOUT MCP context (generic/incorrect)
+npm run demo:before
+
+# Show query generated WITH MCP context (schema-aware/accurate)  
+npm run demo:after
+
+# Side-by-side comparison of both approaches
+npm run demo:compare
+
+# View the actual database schema
+npm run demo:schema
+
+# Complete demonstration with schema + before/after comparison
+npm run demo:mcp-full
+```
+
+### Real Database Query Execution
+
+Execute the MCP-enhanced `getUserTasksQuery` against the actual database with real data:
+
+```bash
+# Execute getUserTasksQuery for user ID 1 (default)
+npm run demo:query
+
+# Execute for a specific user ID
+npm run demo:query-user -- --user-id 2
+
+# Show database contents overview (users, categories, task summary)
+npm run demo:db-contents
+```
+
+**What this demonstrates:**
+- **Without MCP**: Generic queries with incorrect table names, missing columns, and improper relationships
+- **With MCP**: Schema-aware queries using actual table names, proper JOINs, correct constraints, and intelligent ordering
+- **Real Execution**: Shows the MCP-enhanced query returning actual data with proper sorting by priority and due dates
+
+This showcases how Model Context Protocol enables AI to generate production-ready database queries by understanding your actual schema structure.
+
 ### Environment Requirements
 - Node.js 18.17.0 or later
 - npm 9.x or later

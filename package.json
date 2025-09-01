@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "demo:schema": "node mcp-demo.js schema",
+    "demo:query": "node query-executor.js query",
+    "demo:query-user": "node query-executor.js query",
+    "demo:db-contents": "node query-executor.js contents"
   },
   "dependencies": {
     "next": "15.5.2",

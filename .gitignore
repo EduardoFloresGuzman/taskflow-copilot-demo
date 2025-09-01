@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Resources folder (contains all presentation materials)
+/resources/
+
 # Demo and presentation files (keep these out of main repo)
 *DEMO*.md
 *PRESENTATION*.md
@@ -52,8 +55,11 @@ next-env.d.ts
 *IMPROVEMENTS*.md
 *INSTRUCTIONS_PRESENTATION*.md
 *INSTRUCTIONS_SCRIPT*.md
+*LANGUAGE_MODEL*.md
 COPILOT_INSTRUCTIONS_PRESENTATION.md
 COPILOT_INSTRUCTIONS_SCRIPT.md
+LANGUAGE_MODEL_SELECTION_SLIDES.md
+LANGUAGE_MODEL_SELECTION_SCRIPT.md
 copilot-specification-driven-development.pptx
 presentation-backup.pdf
 presentation-preview.html
