@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "sqlite-db": {
+      "command": "node",
+      "args": ["mcp-sqlite-server.js"],
+      "env": {
+        "DB_PATH": "demo.db"
+      }
+    }
+  }
+}
